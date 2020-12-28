@@ -5,12 +5,14 @@ Loan calculator with different parameters which is launching through CLI.
 Main assumptions:
 - the --type and --interest parameters must always be specified
 - types of arguments
---type (string: "diff" or "annuity")
---principal (positive int)
---payment (positive float)
---periods (positive int)
---interest (positive float)
-
+	|  argument |  type  |
+	|  :---: |  :---:  |
+	|  --type |  string: "diff" or "annuity"  |
+	|  --principal |  positive int  |
+	|  --payment |  positive float  |
+	|  --periods |  positive int  |
+	|  --interest |  positive float  |
+	
 - calculation of differentiated payments. To do this, the user can run the program specifying interest, number of    monthly
 	|  --type = diff  |  --principal  |  --payment  |  --periods  |  --interest  |
 	|  :---: |  :---:  |  :---:  |  :---:  |  :---:  |
